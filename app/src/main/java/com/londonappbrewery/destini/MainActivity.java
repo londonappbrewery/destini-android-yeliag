@@ -2,11 +2,15 @@ package com.londonappbrewery.destini;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     // TODO: Steps 4 & 8 - Declare member variables here:
-
+    Button topButton;
+    Button bottomButton;
+    TextView storyView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
